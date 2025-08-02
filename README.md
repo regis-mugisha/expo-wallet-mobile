@@ -36,8 +36,8 @@ A modern, secure mobile wallet application built with React Native and Expo. Tra
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
-   cd mobile
+   git clone https://github.com/regis-mugisha/expo-wallet-mobile.git
+   cd expo-wallet-mobile
    ```
 
 2. **Install dependencies**
