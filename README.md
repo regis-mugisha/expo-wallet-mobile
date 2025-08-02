@@ -15,13 +15,17 @@ A modern, secure mobile wallet application built with React Native and Expo. Tra
 
 ### Authentication Screens
 
-![Sign In Screen](./assets/images/docs/sign-in-screen.png)
-![Sign Up Screen](./assets/images/docs/sign-up-screen.png)
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <img src="./assets/images/docs/sign-in-screen.png" alt="Sign In Screen" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+  <img src="./assets/images/docs/sign-up-screen.png" alt="Sign Up Screen" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+</div>
 
 ### Main App Screens
 
-![Home Screen](./assets/images/docs/home-screen.png)
-![Create Transaction Screen](./assets/images/docs/create-screen.png)
+<div style="display: flex; gap: 20px; margin: 20px 0;">
+  <img src="./assets/images/docs/home-screen.png" alt="Home Screen" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+  <img src="./assets/images/docs/create-screen.png" alt="Create Transaction Screen" style="width: 200px; height: auto; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" />
+</div>
 
 ## 🚀 Quick Start
 
