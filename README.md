@@ -1,50 +1,131 @@
-# Welcome to your Expo app 👋
+# 💰 React Native Wallet App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, secure mobile wallet application built with React Native and Expo. Track your income, expenses, and manage transactions with a beautiful, intuitive interface.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- **🔐 Secure Authentication** - Powered by Clerk for robust user authentication
+- **💰 Transaction Management** - Add, view, and delete transactions
+- **📊 Financial Overview** - Real-time balance, income, and expense tracking
+- **🎨 Modern UI** - Clean, responsive design with smooth animations
+- **📱 Cross-Platform** - Works on iOS and Android
+- **🔄 Real-time Sync** - Connected to a REST API for data persistence
+
+## 📱 Screenshots
+
+### Authentication Screens
+
+![Sign In Screen](./assets/images/docs/sign-in-screen.png)
+![Sign Up Screen](./assets/images/docs/sign-up-screen.png)
+
+### Main App Screens
+
+![Home Screen](./assets/images/docs/home-screen.png)
+![Create Transaction Screen](./assets/images/docs/create-screen.png)
+
+## 🚀 Quick Start
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- Expo CLI (`npm install -g @expo/cli`)
+
+### Installation
+
+1. **Clone the repository**
+
+   ```bash
+   git clone <repository-url>
+   cd mobile
+   ```
+
+2. **Install dependencies**
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. **Start the development server**
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. **Run on your device**
+   - Scan the QR code with Expo Go app (iOS/Android)
+   - Press `a` for Android emulator
+   - Press `i` for iOS simulator
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🏗️ Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+mobile/
+├── app/                    # Main app screens (Expo Router)
+│   ├── (auth)/            # Authentication screens
+│   └── (root)/            # Main app screens
+├── components/             # Reusable UI components
+├── hooks/                  # Custom React hooks
+├── constants/              # App constants and config
+├── styles/                 # Screen-specific styles
+└── assets/                 # Images and fonts
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🔧 Key Components
 
-## Learn more
+- **Authentication**: Clerk integration for secure sign-in/sign-up
+- **Transaction Management**: Add, view, and delete transactions
+- **Balance Tracking**: Real-time financial overview
+- **Category System**: Organized transaction categories (Food, Shopping, etc.)
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🛠️ Tech Stack
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- **Framework**: React Native with Expo
+- **Navigation**: Expo Router (file-based routing)
+- **Authentication**: Clerk
+- **State Management**: React Hooks
+- **Styling**: React Native StyleSheet
+- **Icons**: Expo Vector Icons
+- **API**: REST API integration
 
-## Join the community
+## 📊 API Integration
 
-Join our community of developers creating universal apps.
+The app connects to a REST API for data persistence:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Base URL**: `https://expo-wallet-api.onrender.com/api`
+- **Endpoints**: Transactions CRUD operations
+- **Authentication**: User-based data isolation
+
+## 🎯 Available Scripts
+
+```bash
+npm start          # Start Expo development server
+npm run android    # Run on Android emulator
+npm run ios        # Run on iOS simulator
+npm run web        # Run on web browser
+npm run lint       # Run ESLint
+```
+
+## 🔐 Environment Setup
+
+The app uses Clerk for authentication. Make sure to:
+
+1. Set up your Clerk application
+2. Configure environment variables if needed
+3. Update API endpoints as required
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+**Built with ❤️ using React Native and Expo**
